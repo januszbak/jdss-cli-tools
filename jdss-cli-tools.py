@@ -29,7 +29,7 @@ action           = ''
 delay            = 0
 nodes            = []
 auto_target_name = "iqn.auto.target.for.backup"        
-auto_scsiid      =  time.strftime("T%YT%mT%d%TH%M")  #"1234567890123456" Starts with alpha-char becouse of Windows
+auto_scsiid      =  time.strftime("jdss%Y%m%d%H%M")  #"1234567890123456" Starts with alpha-char becouse of Windows
 auto_snap_name   =  "__auto-snap-for-external-backup__"
 auto_clone_name  =  "_auto-clone-for-backup"
 
